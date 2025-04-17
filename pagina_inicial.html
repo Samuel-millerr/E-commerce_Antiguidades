@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="pagina_inicial.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+        <a href="pagina_inicial.html"><h1 class="logo">Reliquiae</h1></a>
+        <div>
+            <a href="pagina_inicial.html"><h1>Home</h1></a> 
+            <a href="login.html"><h1>Login</h1></a>
+            <a href="carrinho.html"><img src = "Imagens/carrinho.png"></a>
+        </div>    
+    </header>
+
+    <!-- IMAGEM COM BACKGROUND DAS FIGURAS HISTORICAS -->
+    <section class="background_01">
+        <div class="background_slides">
+            <div  class="slides">
+                <input type="radio" name="slide" id="slide01" checked>
+                <input type="radio" name="slide" id="slide02">
+                <input type="radio" name="slide" id="slide03">
+                <input type="radio" name="slide" id="slide04">
+
+                <div class="slide s1">
+                    <img src="Imagens/Img_Background/figurashistoricas.jpg" alt="Montagem de Figuras Historicas" title="Montagem de Figuras Historicas">
+                </div>
+                <div class="slide">
+                    <img src="Imagens/Img_Background/revolucao-francesa.jpg" alt="Revolução Francesa" title="Revolução Francesa">
+                </div>
+                <div class="slide">
+                    <img src="Imagens/Img_Background/bbchistoricalicons.jpg" alt="BBC Historical Icons" title="BBC Historical Icons">
+                </div>
+                <div class="slide">
+                    <img src="Imagens/Img_Background/escola-de-atenas.jpg" alt="Escola de Atenas" title="Escola de Atenas">
+                </div>
+
+            </div>
+        </div>
+        <!-- ABA DE NAVEGAÇÃO ENTRE AS IMAGENS -->
+        <div class="roll_bar">
+            <label class="select_bar" for="slide01"></label>
+            <label class="select_bar" for="slide02"></label>
+            <label class="select_bar" for="slide03"></label>
+            <label class="select_bar" for="slide04"></label>
+        </div>
+    </section>
+
+    <!-- CARROSSEL DE ITENS -->
+    <section class="background_items">
+        <p class="items_title">Mais Vendidos</p> 
+        <div class="items">
+            <div>
+                <img src="Imagens/peruca_maria.webp" title="Peruca da Maria Antonieta" alt="Peruca da Maria Antonieta">
+            </div>
+            <div>
+                <img src="Imagens/relogio_santosdu.jpeg" title="Relogio usado por Santos Dumont" alt="Relogio usado por Santos Dumont">
+            </div>
+            <div>
+                <img src="Imagens/telefone.png" title="Telefone comprado por Dom Pedro II durante a Exposição Universal dos Estados Unidos" alt="Telefone comprado por Dom Pedro II durante a Exposição Universal dos Estados Unidos">
+            </div>
+            <div>
+                <img src="Imagens/sandalias.jpeg" title="As sandálias de Mahatma Gandhi" alt="As sandálias de Mahatma Gandhi">
+            </div>
+            <div>
+                <img src="Imagens/chapeu-abraham.webp" title="Cartola do Abraham Lincoln" alt="Cartola do Abraham Lincoln">
+            </div>
+        </div>
+        <a href="produtos.html">Veja todos os nossos produtos</a> 
+    </section>
+    
+    <!-- ITEM EM DESTAQUE -->
+    <div class="background_blink">
+        <p class="blink">Oferta em Destaque</p>
+    </div>
+    <section class="background_02">
+        <div class="main_item"><img src="Imagens/penico.png"></div>
+        <div class="about_item">
+            <h2>O Penico de Napoleão Bonaparte</h2>
+            <a>
+                Este penico de porcelana, ricamente adornado, é atribuído ao imperador Napoleão Bonaparte e teria sido utilizado durante seu exílio na ilha de Elba (1814-1815). Uma peça única que carrega um lado íntimo da vida do grande estrategista.
+            </a> <br>
+            <p class="price">R$ 120.000,00</p>
+            <div> 
+                <p class="div_price">ou 12x de R$ 10.000,00 sem juros</p>
+                <Button>Comprar Agora</Button>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ --> 
+     <footer>
+        <div>
+            <h3>SOBRE NÓS</h3>
+            <a>QUEM SOMOS</a>
+            <a>COMO COMPRAR</a>
+            <a>LOJAS PARCEIRAS</a>
+        </div>
+        <div>
+            <h3>AJUDA E SUPORTE</h3>
+            <a>SUA CONTA</a>
+            <a>TERMOS DE USO</a>
+            <a>FRETE E TAXA DE ENTREGA</a>
+            <a>AJUDA</a>
+        </div>
+        <div>
+            <h3>PAGAMENTO</h3>
+            <img src="Imagens/pagamento.png">
+            <br>
+            <h3>NOS ENCONTRE EM</h3>
+            <div class="social_media">
+                <img src="Imagens/facebook.png">
+                <img src="Imagens/instagram.png">
+                <img src="Imagens/zap.png">
+            </div>
+        </div>
+     </footer>
+     <section class="footer_continue">
+        <a href="#" class="logo">Reliquiae</a>
+        <a class="rights_reserved">Samuel Miller Soares - Todos os direitos reservados 2025.</a>
+     </section>
+    
+</body>
+</html>
